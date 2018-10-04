@@ -1,6 +1,30 @@
-h1  {
-  font-family: 'Cinzel', serif;
+h1{
+font-family: 'Cinzel', serif;
+text-align: center;
+color: black;
 }
+
 p {
   font-family: 'Montserrat', sans-serif;
+}
+
+pre{
+text-align: center;
+font-size: large;
+
+
+}
+
+a.nav-link{
+color: red;
+width: 220px;
+font-weight: bold;
+font-size: large;
+text-align: center;
+background-color: transparent;
+
+}
+
+#intro.container-fluid{
+background-color: transparent;
 }
