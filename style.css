@@ -1,5 +1,8 @@
 #formsize {
+  padding: 0;
+  margin: 0;
   background-color: red;
-  align-content: center;
-  width: 100%;
+}
+.btn btn-primary .right{
+  text-align: right;
 }
