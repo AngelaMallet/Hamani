@@ -26,17 +26,17 @@ body {
   position:relative;
 }
 .formules h1 {
-  font-family: 'Amiri', serif;
+  font-family: 'Cinzel', serif;
   color: red;
 }
 .formules h2 {
-  font-family: 'Amiri', serif;
+  font-family: 'Cinzel', serif;
 }
 .formules h3 {
-  font-family: 'Amiri', serif;
+  font-family: 'Cinzel', serif;
 }
 .formules p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .card {
   background-color: transparent;
