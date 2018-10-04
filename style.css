@@ -1,0 +1,11 @@
+body {
+  background-image: linear-gradient(#151515, #070707);
+  color: white;
+}
+.video {
+  width: 100%;
+  height: auto;
+}
+.card {
+  background-color: transparent;
+}
