@@ -329,3 +329,31 @@ form .block-heading h2,
 		padding: 4px 10px;
 		text-align: center;
 	}
+  .footer {
+    list-style: none;
+    padding-top: 80px;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .footer-line {
+
+  }
+
+  .footer-title {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .footer-widget ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #636e74;
+    display: block;
+    font-weight: 200;
+  }
+  .footer-widget ul li a:hover {
+    color: #fff;
+  }
+  .footer h2{
+    color: #ff003f;
+    font-family: 'Cinzel', serif;
+  }
