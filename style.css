@@ -108,7 +108,10 @@ background-color: transparent;
 }
 
 
-/*Partie Luc*///////////////
+/*Partie Luc*/
+form{
+  	background-color: #2c2c2b;
+}
 
 button .btn .btn-primary .btn-lg .btn-block .pink{
   border-color: #ff003f;
