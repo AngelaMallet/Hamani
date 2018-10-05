@@ -9,7 +9,7 @@
   <title>Hamani Sushi Bar 花見寿司バー</title>
 </head>
 <body>
-  <header class="main-header container">
+  <header id="presentation" class="main-header container">
     <div class="v-wrapper">
       <video src="img/vidhead.mp4" autoplay muted loop>
       </video>
@@ -34,14 +34,14 @@
           <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
             <ul class="navbar-nav row ">
               <li class="nav-item col">
-                <a class="nav-link" href="#Présentation">Présentation</a>
+                <a class="nav-link" href="#presentation">Présentation</a>
 
               </li>
               <li class="nav-item col">
-                <a class="nav-link" href="#Carte">Carte</a>
+                <a class="nav-link" href="#carte">Carte</a>
               </li>
               <li class="nav-item col">
-                <a class="nav-link" href="#Formulaire de contact">Formulaire de contact</a>
+                <a class="nav-link" href="#formulaire">Formulaire de contact</a>
               </li>
             </ul>
           </div>
@@ -53,11 +53,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div id="intro" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
-
-
-
-        <h1>Hanami Sushi Bar</h1>
+      <div id="intro" class="container-fluid innervideo" >
+        <h1 class="tiltemv">Hanami Sushi Bar</h1>
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
@@ -91,7 +88,7 @@
 
 
 <div class="col-md-auto text-center">
-  <div class="container formules">
+  <div id="carte" class="container formules">
     <div class="row justify-content-md-center">
       <div class="col-md-auto text-center">
         <h1>数式</h1>
@@ -111,7 +108,7 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="img/IMG_11.JPG" alt="sushi saumon">
         <div class="card-body text-center">
-          <h3 class="card-title">Sushi saumon</h3>
+          <h3 class="card-title">Sushi saumon</h3><br/><br/>
           <p class="card-text">10 pièces</p>
           <span class="botcash">11,50€</span>
         </div>
@@ -186,7 +183,7 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-md-center">
+    <div class="row justify-content-md-center mgpls">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="img/IMG_5786.PNG" alt="Card image cap">
         <div class="card-body text-center">
@@ -206,7 +203,7 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="img/IMG_5788.JPG" alt="Card image cap">
         <div class="card-body text-center">
-          <h3 class="card-title">Salade classique</h3>
+          <h3 class="card-title">Salade</h3>
           <p class="card-text">Salade de choux et de mijoté de sakura</p>
           <span class="botcash">4,00€</span>
         </div>
@@ -215,7 +212,10 @@
   </div>
 </div>
 <div class="container">
-  <form>
+  <form id="formulaire">
+    <div class="block-heading">
+      <h2>Commande</h2>
+    </div>
     <div class="form-row justify-content-center pb-4 pt-5">
       <label for="name" class="col-form-label">Nom :</label>
       <div class="col-md-4">
@@ -263,11 +263,11 @@
                             </div>
                           </div>
                           <div class="col-md-4 quantity">
-                            <label for="quantity">Quantity:</label>
+                            <label for="quantity">Quantité:</label>
                             <input id="quantity" type="number" value ="1" class="form-control quantity-input">
                           </div>
                           <div class="col-md-3 price">
-                            <span>0&euro;</span>
+                            <span>12,50&euro;</span>
                           </div>
                         </div>
                       </div>
@@ -277,26 +277,25 @@
                 <div class="product">
                   <div class="row">
                     <div class="col-md-3">
-                      <img class="img-fluid mx-auto d-block image" src="img/IMG_12.JPG">
+                      <img class="img-fluid mx-auto d-block image" src="img/IMG_1.JPG">
                     </div>
                     <div class="col-md-8">
                       <div class="info">
                         <div class="row">
                           <div class="col-md-5 product-name">
                             <div class="product-name">
-                              <a href="#">Saumon classique</a>
+                              <a href="#">Massago Roll</a>
                               <div class="product-info">
-                                <div><span class="value">6 Suchi saumon</span></div>
-                                <div><span class="value">6 California saumon avocat</span></div>
+                                <div><span class="value">10 California crevette cuite, avocat recouverts de massago</span></div>
                               </div>
                             </div>
                           </div>
                           <div class="col-md-4 quantity">
-                            <label for="quantity">Quantity:</label>
+                            <label for="quantity">Quantité:</label>
                             <input id="quantity" type="number" value ="1" class="form-control quantity-input">
                           </div>
                           <div class="col-md-3 price">
-                            <span>0&euro;</span>
+                            <span>13&euro;</span>
                           </div>
                         </div>
                       </div>
@@ -306,26 +305,25 @@
                 <div class="product">
                   <div class="row">
                     <div class="col-md-3">
-                      <img class="img-fluid mx-auto d-block image" src="img/IMG_12.JPG">
+                      <img class="img-fluid mx-auto d-block image" src="img/IMG_5785.JPG">
                     </div>
                     <div class="col-md-8">
                       <div class="info">
                         <div class="row">
                           <div class="col-md-5 product-name">
                             <div class="product-name">
-                              <a href="#">Saumon classique</a>
+                              <a href="#">Mini-Maki mixte</a>
                               <div class="product-info">
-                                <div><span class="value">6 Suchi saumon</span></div>
-                                <div><span class="value">6 California saumon avocat</span></div>
+                                <div><span class="value">3 Maki Thon, Saumon, Concombre</span></div>
                               </div>
                             </div>
                           </div>
                           <div class="col-md-4 quantity">
-                            <label for="quantity">Quantity:</label>
+                            <label for="quantity">Quantité:</label>
                             <input id="quantity" type="number" value ="1" class="form-control quantity-input">
                           </div>
                           <div class="col-md-3 price">
-                            <span>0&euro;</span>
+                            <span>7,50&euro;</span>
                           </div>
                         </div>
                       </div>
@@ -338,9 +336,9 @@
             <div class="col-md-12 col-lg-4">
               <div class="summary">
                 <h3>Résumé</h3>
-                <div class="summary-item"><span class="text">Sous-total</span><span class="price">0&euro;</span></div>
+                <div class="summary-item"><span class="text">Sous-total</span><span class="price">33&euro;</span></div>
                 <div class="summary-item"><span class="text">Réduction</span><span class="price">0&euro;</span></div>
-                <div class="summary-item"><span class="text">Total</span><span class="price">0&euro;</span></div>
+                <div class="summary-item"><span class="text">Total</span><span class="price">33&euro;</span></div>
                 <button type="button" class="btn btn-danger btn-sm btn-block">Paiement</button>
               </div>
             </div>
