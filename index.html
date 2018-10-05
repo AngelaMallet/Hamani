@@ -18,43 +18,41 @@
     <div class="h-content"></div>
 
   </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <nav class="navbar navbar-expand-sm  navbar-blue fixed-top colornav">
+            <a class="navbar-brand" href="#">
+              <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+              <img class="chef" style="width: 40px" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/666/1257052666_ded82105-9646-426f-9177-b18835b00a5b.png?cb=1538655104" alt="" >
+            </a>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
+              <ul class="navbar-nav row ">
+                <li class="nav-item col">
+                  <a class="nav-link" href="#Présentation">Présentation</a>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4">
-        <nav class="navbar navbar-expand-sm fixed-top">
-          <a class="navbar-brand" href="#">
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-            <img class="chef" style="width: 40px" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/666/1257052666_ded82105-9646-426f-9177-b18835b00a5b.png?cb=1538655104" alt="" >
-          </a>
-
+                </li>
+                <li class="nav-item col">
+                  <a class="nav-link" href="#Carte">Carte</a>
+                </li>
+                <li class="nav-item col">
+                  <a class="nav-link" href="#Formulaire de contact">Formulaire de contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-sm-8">
+          <!-- Toggler/collapsibe Button -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-md-center" id="collapsibleNavbar">
-            <ul class="navbar-nav row ">
-              <li class="nav-item col">
-                <a class="nav-link" href="#Présentation">Présentation</a>
-
-              </li>
-              <li class="nav-item col">
-                <a class="nav-link" href="#Carte">Carte</a>
-              </li>
-              <li class="nav-item col">
-                <a class="nav-link" href="#Formulaire de contact">Formulaire de contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <div class="col-sm-8">
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div id="intro" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+        </div>
+        <div id="intro" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
 
 
 
@@ -73,10 +71,23 @@
           </div>
         </div>
 
-      </div>
 
+
+        </div>
+
+      </div>
     </div>
+    <!--
+    <section class="headervideo">
+    <video width="100%" height="auto" autoplay loop mute>
+    <source src="img/vidhead.mp4" type="video/mp4" />
+    <div class="innervideo">
+    <p>essai texte</p>
   </div>
+</video>
+</section>
+-->
+
 
   <div class="col-md-auto text-center">
     <div class="container formules">
@@ -201,98 +212,10 @@
         </div>
       </div>
     </div>
-    <!-- Partie Luc -->
-    <div class="container-fluid">
 
-      <form>
-        <div class="form-row justify-content-center">
-          <label for="name" class="col-form-label">Nom :</label>
-          <div class="col-md-5">
-            <input type="text" class="form-control" id="name" placeholder="Votre nom">
-          </div>
-          <label for="surname" class="col-form-label">Prénom :</label>
-          <div class="col-md-5">
-            <input type="text" class="form-control" id="surname" placeholder="Votre prénom">
-          </div>
-        </div>
-        <div class="form-row justify-content-center">
-          <label for="number" class="col-form-label">Tél :</label>
-          <div class="col-md-5">
-            <input type="tel" class="form-control" id="number" placeholder="Votre numéro de téléphone">
-          </div>
-          <label for="schedule" class="col-form-label">Horraire :</label>
-          <div class="col-md-5">
-            <input type="time" class="form-control" id="schedule">
-          </div>
-        </div>
-        <!-- Checkbox -->
-        <div class="form-group row justify-content-center">
-          <div class="col-md-2">Grosse formulle :</div>
-          <div class="col-md-5">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">1</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">2</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">3</label>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">4</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">5</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">6</label>
-            </div>
-          </div>
-          <!-- Petite formulle -->
-        </div><div class="form-group row justify-content-center">
-          <div class="col-md-2">Petite formulle :</div>
-          <div class="col-md-5">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">1</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">2</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">3</label>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">4</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">5</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">6</label>
-            </div>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary right">Commander !</button>
-      </form>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-  </html>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

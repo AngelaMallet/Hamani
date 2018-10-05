@@ -2,6 +2,10 @@ body {
   background-image: linear-gradient(#151515, #070707);
   color: white;
 }
+a.nav-link:hover{
+  text-decoration: underline;
+  color: #fff;
+}
 .headervideo {
   margin: 0;
   padding: 0;
@@ -15,24 +19,29 @@ body {
   height: auto;
   margin-bottom: 3vh;
 }
-.innervideo{
+.innervideo {
   z-index: 2;
   position: fixed;
   background: rgba(0,0,0,0.4);
   background-size: contain;
 }
-.innervideo-text{
+.innervideo-text {
   z-index: 3;
   position: absolute;
   line-height: 50px;
   color: red;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:1.5em;
   background: rgba(0,0,0,0.4);
   overflow: hidden;
 }
 .centralisation {
   padding-top: 9vh;
+}
+h4 {
+  font-family: 'Cinzel', serif;
+  color: #FFF;
+  font-size: 24px;
 }
 .innervideo p {
   margin:0;
@@ -112,15 +121,15 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-#intro p{
+#intro p {
 text-align: center;
 font-weight: lighter;
 }
 
-#intro{
+#intro {
   z-index: 3;
 }
-.v-wrapper{
+.v-wrapper {
   position:absolute;
   top:0;
   left:0;
@@ -129,13 +138,13 @@ font-weight: lighter;
   overflow:hidden;
 }
 
-.v-wrapper video{
+.v-wrapper video {
   min-height:100%;
   min-width:100%;
   z-index: 1;
 }
 
-.h-overlay{
+.h-overlay {
   height:100vh;
   position: absolute;
   top:0;
@@ -146,21 +155,47 @@ font-weight: lighter;
   opacity:0.85;
 }
 
-.h-content{
+.h-content {
   z-index:2;
   margin: auto;
 }
 
 
-a.nav-link{
+a.nav-link {
 color: #ff003f;
 width: 220px;
 font-weight: lighter;
-font-size: 14px;
+font-size: 16px;
 text-align: center;
 background-color: transparent;
 
 }
 
-#intro.container-fluid{
+#intro.container-fluid {
 background-color: transparent;
+}
+
+.image-frame {
+  position:relative;
+  z-index:1;
+  display:inline-block;
+}
+
+.colornav {
+background-color: #252525;
+}
+
+footer {
+
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+   /* just for demo */
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
