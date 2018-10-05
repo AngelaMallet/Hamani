@@ -106,3 +106,10 @@ background-color: transparent;
 
 #intro.container-fluid{
 background-color: transparent;
+}
+
+.btn.btn-primary.red{
+  border-color: #ff003f;
+  background-color: #ff003f;
+  font-family: 'Montserrat', sans-serif;
+}
