@@ -22,4 +22,8 @@ background-color: transparent;
 
 #intro.container-fluid{
 background-color: transparent;
+}h1  {
+  font-family: 'Cinzel', serif;
 }
+p {
+  font-family: 'Montserrat', sans-serif;
