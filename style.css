@@ -3,16 +3,27 @@ body {
   color: white;
 }
 .headervideo {
+  margin: 0;
+  padding: 0;
+}
+.video {
+  z-index: 1;
   position: relative;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: auto;
   margin-bottom: 3vh;
 }
-.headervideo .innervideo{
+.innervideo{
+  z-index: 2;
+  position: fixed;
+  background: rgba(0,0,0,0.4);
+  background-size: contain;
+}
+.innervideo-text{
+  z-index: 3;
   position: absolute;
-  bottom:30px;
-  left:30px;
-  right:10px;
   line-height: 50px;
   color: red;
   font-family: 'Roboto', sans-serif;
