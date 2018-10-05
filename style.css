@@ -2,6 +2,10 @@ body {
   background-image: linear-gradient(#151515, #070707);
   color: white;
 }
+a.nav-link:hover{
+  text-decoration: underline;
+  color: #fff;
+}
 .headervideo {
   position: relative;
   width: 100%;
@@ -15,10 +19,15 @@ body {
   right:10px;
   line-height: 50px;
   color: red;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:1.5em;
   background: rgba(0,0,0,0.4);
   overflow: hidden;
+}
+h4 {
+  font-family: 'Cinzel', serif;
+  color: #FFF;
+  font-size: 24px;
 }
 .innervideo p {
   margin:0;
@@ -98,7 +107,7 @@ a.nav-link{
 color: #ff003f;
 width: 220px;
 font-weight: lighter;
-font-size: 14px;
+font-size: 16px;
 text-align: center;
 background-color: transparent;
 
@@ -106,3 +115,29 @@ background-color: transparent;
 
 #intro.container-fluid{
 background-color: transparent;
+}
+
+.image-frame{
+  position:relative;
+  z-index:1;
+  display:inline-block;
+}
+
+.colornav {
+background-color: #252525;
+}
+
+footer {
+
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+   /* just for demo */
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
